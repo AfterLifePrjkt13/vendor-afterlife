@@ -1,3 +1,8 @@
+# LawnIcons
+ifeq ($(TARGET_PREBUILTS_LAWNICONS),true)
+    $(call inherit-product-if-exists, vendor/prebuilts/LawnIcons/config.mk)
+endif
+
 # AfterEcho
 ifeq ($(TARGET_USE_ECHO),true)
     $(call inherit-product-if-exists, vendor/dolby/afterlife/afterlife.mk)
