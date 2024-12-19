@@ -55,6 +55,12 @@ endif
 PRODUCT_PACKAGES += \
     GameSpace
 
+#LMOStuff
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
+
 #Omni
 PRODUCT_PACKAGES += \
     OmniJaws \
